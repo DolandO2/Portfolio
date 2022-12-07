@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+	<header>
+		<input type="checkbox" class="toggler">
+	    <div class="hamburger"><div></div></div>
+	    <div class="menu">
+	        <div>
+	            <ul>
+	                <li><a href ="#">Accueil</a></li>
+	                <li><a href="cv.html">CV</a></li>
+	                <li><a href="projet.html">Projet</a></li>
+	                <li><a href="contact.html">Contact</a></li>
+	            </ul>
+	        </div>
+	    </div>
+    </header>
+	<nav> 
+		<div><a href="accueil.html"><h2>Accueil</h2></a></div> 
+		<div><a href="cv.html"><h2>CV</h2></a> </div>
+		<div><a href="projet.html"><h2>Projets</h2></a></div>
+		<div><h2>Contact</h2></div>
+	</nav>
+	<form action="/Contacter moi" method="post">
+		<div>
+	        <label for="name" title="required">Votre Nom:</label>
+	        <input type="text" id="name" name="user_name">
+	    </div>
+	    <div>
+	        <label for="mail" title="required">Votre adresse mail&nbsp;:</label>
+	        <input type="email" id="mail" name="user_mail">
+	    </div>
+	    <div>
+	        <label for="msg">Votre Message :</label>
+	        <textarea id="msg" name="user_message"></textarea>
+	    </div>
+	    <input type="submit" value="Envoyer"/>
+	</form>
+	<footer> 	
+			<button>Discord</button>
+			<button>GitHub</button>
+			<button>Simplon</button>
+	</footer>
+</body>
+</html>
